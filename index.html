@@ -1,434 +1,492 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Portfolio</title>
 
-     <link rel="stylesheet" href="resume.css" type="text/CSS">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="resume.css" type="text/CSS" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+  </head>
+  <body>
     <header id="body-header">
-        <nav>
+      <nav>
+        <ul class="horizontal-list text-center nav-menu">
+          <li>
+            <a href="#"> Home </a>
+          </li>
+          <li>
+            <a href="#about"> About </a>
+          </li>
+          <li>
+            <a href="#skills"> Skills </a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-            <ul class="horizontal-list text-center nav-menu">
-                <li>
-                    <a href="#"> Home </a>
-                </li>
-                <li>
-                    <a href="#about"> About </a>
-                </li>
-                <li>
-                    <a href="#skills"> Skills </a>
-                </li>
-                <li>
-                    <a href="#experience">Experience</a>
-                </li>
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-
-        </nav>
-
-        <div id="name-social-container">
-            <div class="text-center">
-                <h1 id="my-name">Dhanu Bhardwaj</h1>
-            </div>
-            <div>
-                <ul class="horizontal-list text-center social-icons">
-                    <li>
-                        <a href="https://www.linkedin.com/in/dhanu-bhardwaj-29534b171">
-                            <i class="fa fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-quora"></i>
-                        </a>
-                    </li>
-                </ul>
-
-            </div>
-
+      <div id="name-social-container">
+        <div class="text-center">
+          <h1 id="my-name">Dhanu Bhardwaj</h1>
         </div>
-
+        <div>
+          <ul class="horizontal-list text-center social-icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/dhanu-bhardwaj-29534b171"
+                target="_blank"
+              >
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/dhanu27?tab=repositories"
+                target="_blank"
+              >
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
+      <section id="about">
+        <div id="my-image">
+          <img src="profilePic.png" />
+        </div>
 
-        <section id="about">
-            <div id="my-image">
-                <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg">
+        <div id="about-para">
+          <p>
+            Hello World, My name is
+            <span class="text-highlight">Dhanu Bhardwaj</span>I am software
+            enginner || Full Stack Developer || Java Developer and complete my
+            enginnering from HMRITM in 2020 .I am passion about scabling ,design
+            pattern , architect a robust system and smooth the user experience
+            with technical knowledge to create cool digital experiences. Living
+            in <span class="text-highlight"> New Delhi </span> .Looking for Job
+            Opporunity.
+          </p>
+          <button id="resume-bttn">
+            <a href="https://dhanu27.github.io/Resume/">RESUME</a>
+          </button>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fa fa-chalkboard-teacher"></i>
+          </span>
+          <span> SKILLS </span>
+        </h1>
+
+        <div id="skills-container" class="skills-display">
+          <div class="skill-progress">
+            <div class="fifty-percent mb-blue" data-bar-width="85">
+              <div class="skill-name">
+                <span> C++ </span>
+              </div>
             </div>
-
-            <div id="about-para">
-
-                <p>
-                   Hello My name is <span class="text-highlight">dhanu bhardwaj</span>I am Full Stack Developer in  <span class="text-highlight"> Nodejs </span>.I merge a passion for usability and user experience with technical knowledge to create cool digital experiences. Living in  <span class="text-highlight"> New Delhi </span> .Looking for Job Opporunity.
-                </p>
-
+          </div>
+          <div class="skill-progress">
+            <div
+              class="eighty-five-percent mb-orange"
+              data-bar-width="80"
+              data-skill-percent="75"
+            >
+              <div class="skill-name">
+                <span> HTML </span>
+              </div>
             </div>
-
-        </section>
-
-
-
-        <section id="skills">
-            <h1 class="section-heading mb75px ">
-                <span>
-                    <i class="fa fa-chalkboard-teacher"></i>
-                </span>
-                <span> SKILLS </span>
-            </h1>
-
-            <div id = "skills-container" class="skills-display">
-                <div class="skill-progress">
-                    <div class="fifty-percent mb-blue" data-bar-width="85">
-                        <div class="skill-name">
-                            <span> C++ </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="eighty-five-percent mb-orange" data-bar-width="80" data-skill-percent="75">
-                        <div class="skill-name">
-                            <span> HTML </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="eighty-percent mb-light-purple" data-bar-width="85">
-                        <div class="skill-name">
-                            <span> CSS </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="fifty-percent mb-teal" data-bar-width="80">
-                        <div class="skill-name">
-                            <span> Javascript </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="fifty-percent mb-blue" data-bar-width="75">
-                        <div class="skill-name">
-                            <span> NodeJs </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="eighty-percent mb-light-purple" data-bar-width="60">
-                        <div class="skill-name">
-                            <span> MongoDB </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="eighty-percent mb-orange" data-bar-width="70">
-                        <div class="skill-name">
-                            <span> Java </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="eighty-percent mb-brown" data-bar-width="70">
-                        <div class="skill-name">
-                            <span> jQuery </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-progress">
-                    <div class="eighty-percent mb-face" data-bar-width="80">
-                        <div class="skill-name">
-                            <span> MySql </span>
-                        </div>
-                    </div>
-                </div>
-
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent mb-light-purple" data-bar-width="85">
+              <div class="skill-name">
+                <span> CSS </span>
+              </div>
             </div>
-
-        </section>
-
-        <section id="experience">
-
-            <h1 class="section-heading mb75px">
-                <span>
-                    <i class="fa fa-briefcase"></i>
-                </span>
-                <span> Work Experience </span>
-            </h1>
-
-            <div class="timeline">
-
-                <div class="timeline-box ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="C:\Users\dhanu\Downloads\isocietylogo.jpg">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> Intern </h3>
-                        <h4 class="experience-company-name">Factech Automation Pvt Ltd </h4>
-                        <h5 class="experience-duration m0"> July 2019 - October 2019 </h5>
-
-                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    </div>
-                </div>
-                
-                <!-- <div class="timeline-box right ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> Designation </h3>
-                        <h4 class="experience-company-name"> Company Name </h4>
-                        <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
-                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    </div>
-                </div>
-
-                <div class="timeline-box left ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
-                        </div>
-                        <h3 class="experience-designation m0 m-blue"> Designation </h3>
-                        <h4 class="experience-company-name"> Company Name </h4>
-                        <h5 class="experience-duration m0"> Month YYYY - Month YYYY </h5>
-
-                        <p class="experience-description text-align-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    </div>
-                </div> -->
-
-                <div id="timeline-divider">
-                    <div class="timeline-traveller">
-                        <div>
-                            <i class="fa fa-fighter-jet"></i>
-                        </div>
-                    </div>
-                </div>
-
+          </div>
+          <div class="skill-progress">
+            <div class="fifty-percent mb-teal" data-bar-width="80">
+              <div class="skill-name">
+                <span> Javascript </span>
+              </div>
             </div>
-
-        </section>
-
-        <section id="education">
-
-            <h1 class="section-heading mb75px">
-                <span>
-                    <i class="fa fa-graduation-cap"></i>
-                </span>
-                <span> Education </span>
-            </h1>
-
-            <div class="timeline">
-
-                <div class="timeline-box left ">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="https://images.static-collegedunia.com/public/college_data/images/logos/1511782600Logo.jpg">
-                        </div>
-                        <h3 class="experience-designation  m0 m-blue"> B.Tech </h3>
-                        <h4 class="experience-company-name "> HMRITM </h4>
-                        <h5 class="experience-duration m0">  2016 -  2020 </h5>
-
-                        <p class="experience-description"> Branch:CSE(Computer Science Enginering)<br>Secured : 74%</p>
-                    </div>
-                </div>
-                
-                <div class="timeline-box right ">
-                    <div class="timeline-container">
-                        <!-- <div class="timeline-logo">
-                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png">
-                        </div> -->
-                        <h3 class="experience-designation  m0 m-blue"> INTERMEDIATE </h3>
-                        <h4 class="experience-company-name "> Maharaja Aggarsien Adrash Public School </h4>
-                        <h5 class="experience-duration m0"> 2015 - 2016 </h5>
-                        <p class="experience-description">CBSE, Delhi <br>Secured:89 <br>Highest Marks in Physics 95</p>
-                    </div>
-                </div>
-
-                <div class="timeline-box left ">
-                    <div class="timeline-container">
-                        <!-- <div class="timeline-logo">
-                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png">
-                        </div> -->
-                        <h3 class="experience-designation  m0 m-blue">MATRICULATION  </h3>
-                        <h4 class="experience-company-name "> Maharaja Aggarsien Adrash Public School </h4>
-                        <h5 class="experience-duration m0"> 2013 -  2014 </h5>
-
-                        <p class="experience-description"> </p>
-                    </div>
-                </div>
-                
-                <div id="timeline-divider">
-                    <div class="timeline-traveller">
-                        <div>
-                            <i class="fa fa-car"></i>
-                        </div>
-                    </div>
-                </div>
-
+          </div>
+          <div class="skill-progress">
+            <div class="fifty-percent mb-blue" data-bar-width="75">
+              <div class="skill-name">
+                <span> NodeJs </span>
+              </div>
             </div>
-
-        </section>
-
-        <section id="portfolio">
-            <h1 class="section-heading mb75px">
-                <span>
-                    <i class="fa fa-th-list"></i>
-                </span>
-                <span> Portfolio </span>
-            </h1>
-
-            <div id="portfolio-container">
-
-                <div class="portfolio-image-container">
-                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
-                    <div class="portfolio-details">
-                        <p>
-                            Write here basic details about the project.
-                        </p>
-                    </div>
-
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
-                    <div class="portfolio-details">
-                        <p>
-                            Write here basic details about the project.
-                        </p>
-                    </div>
-
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
-                    <div class="portfolio-details">
-                        <p>
-                            Write here basic details about the project.
-                        </p>
-                    </div>
-
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
-                    <div class="portfolio-details">
-                        <p>
-                            Write here basic details about the project.
-                        </p>
-                    </div>
-
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
-                    <div class="portfolio-details">
-                        <p>
-                            Write here basic details about the project.
-                        </p>
-                    </div>
-
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
-                    <div class="portfolio-details">
-                        <p>
-                            Write here basic details about the project.
-                        </p>
-                    </div>
-
-                </div>
-
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent mb-light-purple" data-bar-width="60">
+              <div class="skill-name">
+                <span> MongoDB </span>
+              </div>
             </div>
-        </section>
-
-        <section id="contact">
-            <h1 class="section-heading mb50px">
-                <span>
-                    <i class="fa fa-address-card"></i>
-                </span>
-                <span> Contact </span>
-            </h1>
-            <div id="contact-container">
-
-                <div id="contact-form-container">
-                    <form id="contact-form">
-                        <input id="input-name" name="name" type="text" placeholder="Your Name">
-                        <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
-                        <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
-                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
-                    </form>
-                </div>
-                <div id="my-details-container">
-
-                    <h3> Get In touch </h3>
-                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-
-                    <h3> My Address </h3>
-                    <div class="my-details-info-container">
-                        <i class="fa fa-map-marker-alt"></i>
-                        <span>Delhi, India</span>
-                    </div>
-                    <div class="my-details-info-container">
-                        <i class="fa fa-mobile-alt"></i>
-                        <span>9999999999</span>
-                    </div>
-                    <div class="my-details-info-container">
-                        <i class="fa fa-envelope"></i>
-                        <span>myemail@gmail.com</span>
-                    </div>
-                </div>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent mb-orange" data-bar-width="70">
+              <div class="skill-name">
+                <span> Java </span>
+              </div>
             </div>
-
-            <div class="text-center social-icons">
-
-                <ul class="horizontal-list">
-
-                    <li>
-                        <a href="https://www.linkedin.com/in/manisha-khattar-b5663641/">
-                            <i class="fa fa-linkedin-in"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://stackoverflow.com/users/5608414/manisha?tab=profile" target="_blank">
-                            <i class="fa fa-stack-overflow"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://plus.google.com/u/0/103030702784925512939" target="_blank">
-                            <i class="fa fa-google-plus-g"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.facebook.com/manishakhattar54">
-                            <i class="fa fa-facebook-f"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.quora.com/profile/Manisha-Khattar" target="_blank">
-                            <i class="fa fa-quora"></i>
-                        </a>
-                    </li>
-                </ul>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent mb-brown" data-bar-width="70">
+              <div class="skill-name">
+                <span> jQuery </span>
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="skill-progress">
+            <div class="eighty-percent mb-face" data-bar-width="80">
+              <div class="skill-name">
+                <span> MySql </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    </main>
-    <script src="resume.js"></script>
+      <section id="experience">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fa fa-briefcase"></i>
+          </span>
+          <span> Work Experience </span>
+         </h1>
+       <div class="timeline">  
+        <div class="timeline-box">
+          <div class="timeline-container">
+            <div class="timeline-logo">
+              <img
+                src="https://media-exp1.licdn.com/dms/image/C560BAQEpC7VixYKqxA/company-logo_200_200/0?e=1613606400&v=beta&t=_dzpewbbqMi4lPlS_lMeg3SMa808eMB-Vn0iFKXqgBQ"
+              />
+            </div>
+            <h3 class="experience-designation m0 m-blue">
+              Java Developer Intern
+            </h3>
+            <h4 class="experience-company-name">Nvizion Solutions Pvt Ltd</h4>
+            <h5 class="experience-duration m0">
+              September 2020 - Novemeber 2020
+            </h5>
+
+            <p class="experience-description text-align-justify">
+              Worked on Nitrogen platform's transfromation microservice used
+              spring with reactive programming to scale the system and make it
+              more robust and testing using Jmeter.
+            </p>
+          </div>
+        </div>
     
-</body>
+        <div class="timeline-box right">
+          <div class="timeline-container">
+            <div class="timeline-logo">
+              <img
+                src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png"
+              />
+            </div>
+            <h3 class="experience-designation m0 m-blue">Trainee</h3>
+            <h4 class="experience-company-name">Coding Ninjas</h4>
+            <h5 class="experience-duration m0">Jan 2020 - Present</h5>
+            <p class="experience-description text-align-justify">
+              Trained in Full Stack development in Nodejs with Reactjs and did
+              some amazing projects on MERN stack .
+            </p>
+          </div>
+        </div>
+
+          <div class="timeline-box">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img src="C:\Users\dhanu\Downloads\isocietylogo.jpg" />
+              </div>
+              <h3 class="experience-designation m0 m-blue">
+                Full Stack Developer Intern
+              </h3>
+              <h4 class="experience-company-name">
+                Factech Automation Pvt Ltd
+              </h4>
+              <h5 class="experience-duration m0">July 2019 - October 2019</h5>
+
+              <p class="experience-description text-align-justify">
+                Worked on isocietyManager product at the admin site .Made the
+                contact support service and parking vehicle management
+                microservice using AngularJs at front-end and laravel at backend
+                side.
+              </p>
+            </div>
+          </div>
+         
+
+          <div id="timeline-divider">
+            <div class="timeline-traveller">
+              <div>
+                <i class="fa fa-fighter-jet"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fa fa-graduation-cap"></i>
+          </span>
+          <span> Education </span>
+        </h1>
+
+        <div class="timeline">
+          <div class="timeline-box left">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img
+                  src="https://images.static-collegedunia.com/public/college_data/images/logos/1511782600Logo.jpg"
+                />
+              </div>
+              <h3 class="experience-designation m0 m-blue">B.Tech</h3>
+              <h4 class="experience-company-name">HMRITM</h4>
+              <h5 class="experience-duration m0">2016 - 2020</h5>
+
+              <p class="experience-description">
+                Branch:CSE(Computer Science Enginering)<br />Secured : 74%
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-box right">
+            <div class="timeline-container">
+              <!-- <div class="timeline-logo">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png">
+                        </div> -->
+              <h3 class="experience-designation m0 m-blue">INTERMEDIATE</h3>
+              <h4 class="experience-company-name">
+                Maharaja Aggarsien Adrash Public School
+              </h4>
+              <h5 class="experience-duration m0">2015 - 2016</h5>
+              <p class="experience-description">
+                CBSE, Delhi <br />Secured:89 <br />Highest Marks in Physics 95
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-box left">
+            <div class="timeline-container">
+              <!-- <div class="timeline-logo">
+                            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000032_1550746413_iiitd_logo.png">
+                        </div> -->
+              <h3 class="experience-designation m0 m-blue">MATRICULATION</h3>
+              <h4 class="experience-company-name">
+                Maharaja Aggarsien Adrash Public School
+              </h4>
+              <h5 class="experience-duration m0">2013 - 2014</h5>
+
+              <p class="experience-description"></p>
+            </div>
+          </div>
+
+          <div id="timeline-divider">
+            <div class="timeline-traveller">
+              <div>
+                <i class="fa fa-car"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fa fa-th-list"></i>
+          </span>
+          <span> Portfolio </span>
+        </h1>
+
+        <div id="portfolio-container">
+          <div class="portfolio-image-container">
+            <a href="https://github.com/dhanu27/Connect2-Social_Media-"
+              ><img
+                src="https://cdn.dribbble.com/users/371199/screenshots/12030142/media/666cba0cda973921389271713e2ae733.jpg"
+              />
+              <div class="portfolio-details">
+                <p>
+                  Connect2 is a social-media platform based on Nodejs,Expressjs
+                  ,MongoDb with features such as
+                  post,comment,friend,chat,likes,mailing system and many more.
+                </p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <a href="https://github.com/dhanu27/Habittracker"
+              ><img src="https://pbs.twimg.com/media/C5R_M1BXAAA5Llz.jpg" />
+              <div class="portfolio-details">
+                <p>
+                  Habitify is a Habit Tracker where you can add the habits,
+                  change your status to Done,Not Done for previous 7 days only
+                  and track the all habits.
+                </p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <a href="https://github.com/dhanu27/TO-DO-APP-using-MongoDB"
+              ><img
+                src="https://cutewallpaper.org/21/to-do-list-wallpaper/The-To-Do-List-Do-or-Do-Not.-There-is-No-Try.-Crucial-.jpg"
+              />
+              <div class="portfolio-details">
+                <p>
+                  To smartly manage your works make a TO-DO LIST is responsive
+                  and synchronised delete and add the tasks with category
+                  feature also.
+                </p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <a href="https://github.com/dhanu27/React-Movie-app"
+              ><img
+                src="https://c4.wallpaperflare.com/wallpaper/851/447/633/marvel-comics-dc-comics-collage-wonder-woman-wallpaper-preview.jpg"
+              />
+              <div class="portfolio-details">
+                <p>
+                  Movie-App is responsive website based on react with redux
+                  similar to IMDB .In this search for a movie ,add movie to
+                  list,to your favourites list or remove from favourites.
+                </p>
+              </div></a
+            >
+          </div>
+          <div class="portfolio-image-container">
+            <a href="https://github.com/dhanu27/e-commerce"
+              ><img
+                src="https://cdn.acowebs.com/wp-content/uploads/2019/02/Impact-of-eCommerce-On-Society.png"
+              />
+              <div class="portfolio-details">
+                <p>
+                  Its another react app on ecommerce website with shopping cart
+                  where admin can add new products ,edit product details and
+                  item to shooping cart with showing total price.
+                </p>
+              </div></a
+            >
+          </div>
+
+          <div class="portfolio-image-container">
+            <a href=" https://github.com/dhanu27/Hospital"
+              ><img
+                src="https://www.inclusion-europe.eu/wp-content/uploads/2020/03/200309-D-HN545-1008.jpg"
+              />
+              <div class="portfolio-details">
+                <p>
+                  Its backend service with api end-points for managing and
+                  automate the doctors and paitents during COVID 19 with proper
+                  usecases in nodejs and mongoDB database.
+                </p>
+              </div></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1 class="section-heading mb50px">
+          <span>
+            <i class="fa fa-address-card"></i>
+          </span>
+          <span> Contact </span>
+        </h1>
+        <div id="contact-container">
+          <div id="contact-form-container">
+            <form id="contact-form">
+              <input
+                id="input-name"
+                name="name"
+                type="text"
+                placeholder="Your Name"
+              />
+              <input
+                id="input-email"
+                name="input-email"
+                type="text"
+                required
+                placeholder="Your Email"
+              />
+              <textarea
+                id="input-message"
+                name="input-message"
+                rows="2"
+                cols="40"
+                placeholder="Message"
+              ></textarea>
+              <button class="sub-btn" type="submit">SEND MESSAGE</button>
+            </form>
+          </div>
+          <div id="my-details-container">
+            <h3>Get In touch</h3>
+            <p>Either by mail ,whatsapp ,or call.</p>
+
+            <h3>My Address</h3>
+            <div class="my-details-info-container">
+              <i class="fa fa-map-marker-alt"></i>
+              <span>Pitam Pura, Delhi, India</span>
+            </div>
+            <div class="my-details-info-container">
+              <i class="fa fa-mobile-alt"></i>
+              <span>7827073932</span>
+            </div>
+            <div class="my-details-info-container">
+              <i class="fa fa-envelope"></i>
+              <span>bhardwajdhanu09@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center social-icons">
+          <ul class="horizontal-list">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/dhanu-bhardwaj-29534b171"
+                target="_blank"
+              >
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/dhanu27?tab=repositories"
+                target="_blank"
+              >
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="C:\Users\dhanu\Desktop\front-endProjecct\resume.js"></script>
+  </body>
 </html>
